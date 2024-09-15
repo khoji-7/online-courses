@@ -1,6 +1,6 @@
 import React from 'react';
 import "./hero.css";
-import Title from '../../title/Title';
+import Title from '../../common/title/Title';
 
 const Hero = () => {
   return (

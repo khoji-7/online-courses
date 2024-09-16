@@ -59,7 +59,7 @@ export const coursesCard = [
   {
     id: 2,
     cover: "../images/courses/c2.png",
-    coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
+    coursesName: "Enhancing Adobe Photoshop CC ",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -157,7 +157,7 @@ export const coursesCard = [
   {
     id: 9,
     cover: "../images/courses/c9.png",
-    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    coursesName: "Introducing to with HTML / CSS ",
     courTeacher: [
       {
         dcover: "./images/back.webp",

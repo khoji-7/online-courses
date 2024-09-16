@@ -3,6 +3,7 @@ import Hero from './hero/Hero'
 import AboutCard from '../about/AboutCard'
 import HAbout from './hero/HAbout'
 import Test from './testimonal/Test'
+import Price from '../pricing/Price'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <AboutCard/>
       <HAbout/>
       <Test/>
+      <Price/>
     </div>
   )
 }

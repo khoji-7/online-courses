@@ -8,6 +8,7 @@ import About from "./components/about/About";
 import CourseHome from "./components/allCourse/CourseHome";
 import Team from "./components/Team/Team";
 import Test from "./components/home/testimonal/Test";
+import Price from "./components/pricing/Price";
 const App = () => {
     return (
         <>
@@ -19,7 +20,7 @@ const App = () => {
                     <Route path="/course" exact component={CourseHome} />
                     <Route path="/team" exact component={Team} />
                     <Route path="/test" exact component={Test} />
-
+                    <Route path="/price" exact component={Price} />
 
                 </Switch>
             </Router>

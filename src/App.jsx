@@ -9,6 +9,8 @@ import CourseHome from "./components/allCourse/CourseHome";
 import Team from "./components/Team/Team";
 import Test from "./components/home/testimonal/Test";
 import Price from "./components/pricing/Price";
+import Blog from "./components/blog/Blog";
+import Contact from "./components/contact/Contact";
 const App = () => {
     return (
         <>
@@ -21,6 +23,9 @@ const App = () => {
                     <Route path="/team" exact component={Team} />
                     <Route path="/test" exact component={Test} />
                     <Route path="/price" exact component={Price} />
+                    <Route path="/journal" exact component={Blog} />
+                    <Route path="/contact" exact component={Contact} />
+
 
                 </Switch>
             </Router>

@@ -93,3 +93,88 @@
     }
     
 }
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .aboutHome .right {
+        padding: 60px 40px;
+    }
+    .aboutHome .item {
+        padding: 20px;
+    }
+    .aboutHome img {
+        width: 70px;
+        height: 70px;
+    }
+    .awrapper {
+        height: 40vh;
+    }
+    .awrapper h1 {
+        font-size: 40px;
+    }
+    .awrapper h3 {
+        font-size: 18px;
+    }
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+/* Ekran kengligi 480px dan 768px gacha */
+@media screen and (max-width: 768px) and (min-width: 480px) {
+    .aboutHome {
+        margin-top: 50px;
+    }
+    .aboutHome .right {
+        padding: 40px 30px;
+    }
+    .aboutHome .item {
+        padding: 15px;
+    }
+    .aboutHome img {
+        width: 60px;
+        height: 60px;
+    }
+    .awrapper {
+        height: 50vh;
+    }
+    .awrapper h1 {
+        font-size: 35px;
+    }
+    .awrapper h3 {
+        font-size: 16px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+}
+
+/* Ekran kengligi 320px dan 480px gacha */
+@media screen and (max-width: 480px) {
+    .aboutHome {
+        margin-top: 30px;
+    }
+    .aboutHome .right {
+        padding: 30px 20px;
+    }
+    .aboutHome .item {
+        padding: 10px;
+    }
+    .aboutHome img {
+        width: 50px;
+        height: 50px;
+    }
+    .awrapper {
+        height: 60vh;
+    }
+    .awrapper h1 {
+        font-size: 28px;
+    }
+    .awrapper h3 {
+        font-size: 14px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+}

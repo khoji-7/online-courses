@@ -5,7 +5,7 @@ const PriceCard = () => {
   return (
     <>
         {price.map((val)=>(
-            <div className='items shadow'>
+            <div className='items pricee'>
                 <h4>
                     {val.name}
                 </h4>

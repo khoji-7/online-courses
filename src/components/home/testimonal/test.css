@@ -2,6 +2,10 @@
     padding: 30px;
     transition: 0.5s;
 }
+.items .shadow{
+    display: flex;
+    flex-direction: column;
+}
 .testimonal .img{
     position: relative;
 }

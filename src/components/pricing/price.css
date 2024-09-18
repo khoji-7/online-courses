@@ -16,7 +16,11 @@
     font-size: 20px;
     color: gray;
 }
-
+.pricee{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
 .faq .container {
     max-width: 70%;
     border-radius: 5px;
@@ -42,3 +46,4 @@
     background-color: #1eb2a6;
     color: white;
 }
+ 

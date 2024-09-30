@@ -21,19 +21,68 @@
     padding: 0;
 }
 
-@media  screen and (max-width: 768px) {
+/* 320px va kichikroq ekranlar uchun */
+@media screen and (max-width: 320px) {
+    .hero {
+        padding-top: 60%;
+        height: 60vh;
+        background-position: center;
+    }
+    .hero #heading h3 {
+        font-size: 18px;
+    }
+}
 
+/* 480px va kichikroq ekranlar uchun */
+@media screen and (max-width: 480px) {
+    .hero {
+        padding-top: 55%;
+        height: 70vh;
+        background-position: center;
+    }
+    .hero #heading h3 {
+        font-size: 20px;
+    }
+}
+
+/* 600px va kichikroq ekranlar uchun */
+@media screen and (max-width: 600px) {
+    .hero {
+        padding-top: 50%;
+        height: 75vh;
+    }
+    .hero #heading h3 {
+        font-size: 22px;
+    }
+}
+
+/* 768px ekranlar uchun */
+@media screen and (max-width: 768px) {
+    .hero {
+        padding-top: 50%;
+        height: 80vh;
+        background-position: right;
+    }
+    .hero #heading h3 {
+        font-size: 24px;
+    }
     .margin{
         height: 40vh;
 
     }
-    .hero{
-        background-position: right;
-        padding-top: 50%;
-        height: 80vh;
-    }
+    
     .hero .row{
         width: 100%;
     }
-    
+}
+
+/* 1024px va undan katta ekranlar uchun */
+@media screen and (min-width: 1024px) {
+    .hero {
+        padding-top: 20%;
+        height: 100vh;
+    }
+    .hero #heading h3 {
+        font-size: 30px;
+    }
 }

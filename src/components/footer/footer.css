@@ -110,7 +110,7 @@ footer .last ul li{
         height: auto;
     }
     footer .container {
-        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         grid-gap: 15px;
     }
     footer .logo p {
@@ -146,7 +146,7 @@ footer .last ul li{
         font-size: 26px;
     }
     footer .container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
     footer .logo p {
         margin: 25px 0 12px 0;
@@ -164,7 +164,7 @@ footer .last ul li{
         padding-right: 20px;
     }
     footer .container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
     }
 }

@@ -1,49 +1,131 @@
-.price .items{
+.price .items {
     padding: 40px;
     text-align: center;
 }
-.price h1{
+
+.price h1 {
     font-size: 50px;
     margin: 20px 0;
     color: #1eb2a6;
 }
-.price h1 span{
+
+.price h1 span {
     font-size: 20px;
     margin-right: 5px;
     color: #000;   
 }
-.price p{
+
+.price p {
     font-size: 20px;
     color: gray;
 }
-.pricee{
+
+.pricee {
     display: flex;
     flex-direction: column;
     background-color: white;
 }
+
 .faq .container {
     max-width: 70%;
     border-radius: 5px;
 }
-.faq .box{
+
+.faq .box {
     background-color: white;
     margin-bottom: 20px;
 }
-.faq button{
+
+.faq button {
     display: flex;
     width: 100%;
     padding: 15px 20px;
     margin: 0;
     justify-content: space-between;
 }
-.faq h2{
-    font-weight: 500 ;
+
+.faq h2 {
+    font-weight: 500;
 }
-.faq p{
+
+.faq p {
     padding: 20px;
 }
-.faq .accordion:hover{
+
+.faq .accordion:hover {
     background-color: #1eb2a6;
     color: white;
 }
- 
+
+/* Media Queries */
+@media screen and (max-width: 320px) {
+    .price .items {
+        padding: 20px;
+    }
+    .price h1 {
+        font-size: 30px;
+    }
+    .price p {
+        font-size: 16px;
+    }
+    .faq .container {
+        max-width: 100%;
+    }
+    .faq h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    .price .items {
+        padding: 25px;
+    }
+    .price h1 {
+        font-size: 35px;
+    }
+    .price p {
+        font-size: 18px;
+    }
+    .faq h2 {
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    .price .items {
+        padding: 30px;
+    }
+    .price h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .price .items {
+        padding: 35px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+    .price .items {
+        padding: 40px;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1024px) {
+    .price .items {
+        padding: 45px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .price .items {
+        padding: 50px;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .price .items {
+        padding: 55px;
+    }
+}

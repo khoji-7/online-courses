@@ -93,3 +93,113 @@
     }
     
 }
+
+/* Kichik ekranlar uchun (320px) */
+@media screen and (max-width: 320px) {
+    .aboutHome .right {
+        padding: 40px 20px;
+    }
+    .aboutHome .item h2 {
+        font-size: 16px;
+    }
+    .awrapper h1 {
+        font-size: 30px;
+    }
+    .awrapper h3 {
+        font-size: 16px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* 480px va kichikroq ekranlar uchun */
+@media screen and (max-width: 480px) {
+    .aboutHome .right {
+        padding: 50px 30px;
+    }
+    .aboutHome .item h2 {
+        font-size: 18px;
+    }
+    .awrapper h1 {
+        font-size: 35px;
+    }
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* 600px ekranlar uchun */
+@media screen and (max-width: 600px) {
+    .aboutHome .right {
+        padding: 60px 40px;
+    }
+    .awrapper h1 {
+        font-size: 40px;
+    }
+    .awrapper h3 {
+        font-size: 18px;
+    }
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 768px ekranlar uchun */
+@media screen and (max-width: 768px) {
+    .grid3, .grid2, .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .aboutHome {
+        margin-top: 80%;
+    }
+    .aboutHome .container {
+        flex-direction: column-reverse;
+    }
+    .aboutHome .row {
+        width: 100%;
+    }
+    .awrapper {
+        height: 70vh;
+    }
+}
+
+/* 900px ekranlar uchun */
+@media screen and (max-width: 900px) {
+    .aboutHome .right {
+        padding: 70px 50px;
+    }
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* 1024px ekranlar uchun */
+@media screen and (max-width: 1024px) {
+    .aboutHome .right {
+        padding: 80px 60px;
+    }
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* 1280px ekranlar uchun */
+@media screen and (max-width: 1280px) {
+    .aboutHome .right {
+        padding: 100px 80px;
+    }
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* 1280px va undan katta ekranlar uchun */
+@media screen and (min-width: 1281px) {
+    .aboutHome .right {
+        padding: 120px 100px;
+    }
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

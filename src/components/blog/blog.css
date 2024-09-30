@@ -29,3 +29,108 @@
     margin-left: 5px;
     font-size: 14px;
 }
+
+/* 320px va kichikroq ekranlar uchun */
+@media screen and (max-width: 320px) {
+    .blog .text {
+        padding: 20px;
+    }
+    .blog h1 {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 15px 0;
+    }
+    .blog span {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .blog span label {
+        font-size: 12px;
+    }
+}
+
+/* 480px va kichikroq ekranlar uchun */
+@media screen and (max-width: 480px) {
+    .blog .text {
+        padding: 25px;
+    }
+    .blog h1 {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 18px 0;
+    }
+    .blog span {
+        font-size: 13px;
+        margin-left: 8px;
+    }
+    .blog span label {
+        font-size: 13px;
+    }
+}
+
+/* 600px ekranlar uchun */
+@media screen and (max-width: 600px) {
+    .blog .text {
+        padding: 30px;
+    }
+    .blog h1 {
+        font-size: 21px;
+        line-height: 29px;
+        margin: 18px 0;
+    }
+    .blog span {
+        font-size: 14px;
+        margin-left: 8px;
+    }
+}
+
+/* 768px ekranlar uchun */
+@media screen and (max-width: 768px) {
+    .blog .text {
+        padding: 35px;
+    }
+    .blog h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .blog span {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+}
+
+/* 900px ekranlar uchun */
+@media screen and (max-width: 900px) {
+    .blog .text {
+        padding: 40px;
+    }
+    .blog h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .blog span {
+        font-size: 15px;
+    }
+}
+
+/* 1024px ekranlar uchun */
+@media screen and (max-width: 1024px) {
+    .blog .text {
+        padding: 40px;
+    }
+    .blog h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+/* 1280px va undan katta ekranlar uchun */
+@media screen and (min-width: 1281px) {
+    .blog .text {
+        padding: 40px;
+    }
+    .blog h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}

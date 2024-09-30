@@ -118,3 +118,111 @@
    
     
 }
+
+/* 320px va kichikroq ekranlar uchun (mobil qurilmalar) */
+@media screen and (max-width: 320px) {
+    .coursesCard .text h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .coursesCard .details .dimg img {
+        width: 40px;
+        height: 40px;
+    }
+    .coursesCard .img {
+        width: 60px;
+        height: 60px;
+    }
+    .online h1 {
+        font-size: 16px;
+    }
+}
+
+/* 480px va kichikroq ekranlar uchun */
+@media screen and (max-width: 480px) {
+    .coursesCard .text h1 {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .coursesCard .img {
+        width: 70px;
+        height: 70px;
+    }
+    .coursesCard .details .dimg img {
+        width: 45px;
+        height: 45px;
+    }
+    .online h1 {
+        font-size: 18px;
+    }
+}
+
+/* 600px ekranlar uchun */
+@media screen and (max-width: 600px) {
+    .coursesCard .text h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .coursesCard .img {
+        width: 75px;
+        height: 75px;
+    }
+    .online h1 {
+        font-size: 19px;
+    }
+}
+
+/* 768px ekranlar uchun */
+@media screen and (max-width: 768px) {
+    .coursesCard {
+        margin-top: 65vh;
+    }
+    .coursesCard .text h1 {
+        font-size: 28px;
+    }
+    .coursesCard .img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* 900px ekranlar uchun */
+@media screen and (max-width: 900px) {
+    .coursesCard .text h1 {
+        font-size: 30px;
+    }
+    .online h1 {
+        font-size: 20px;
+    }
+}
+
+/* 1024px ekranlar uchun */
+@media screen and (max-width: 1024px) {
+    .coursesCard .text h1 {
+        font-size: 32px;
+    }
+    .coursesCard .details .dimg img {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+/* 1280px ekranlar uchun */
+@media screen and (max-width: 1280px) {
+    .coursesCard .text h1 {
+        font-size: 34px;
+    }
+    .online h1 {
+        font-size: 22px;
+    }
+}
+
+/* 1280px va undan katta ekranlar uchun */
+@media screen and (min-width: 1281px) {
+    .coursesCard .text h1 {
+        font-size: 36px;
+    }
+    .online h1 {
+        font-size: 24px;
+    }
+}

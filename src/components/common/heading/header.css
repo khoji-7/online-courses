@@ -87,3 +87,118 @@
 
     }
  }
+
+ /* 320px va kichikroq ekranlar uchun */
+@media screen and (max-width: 320px) {
+   .head {
+       padding: 15px 0;
+       color: black;
+   }
+   .logo h1 {
+       font-size: 24px;
+   }
+   .head .icon {
+       margin-left: 5px;
+   }
+   header ul {
+       padding: 20px 10px;
+   }
+   header ul li a {
+       font-size: 12px;
+   }
+   .toggle {
+       font-size: 25px;
+       right: 15px;
+       top: -10px;
+   }
+}
+
+/* 480px va kichikroq ekranlar uchun */
+@media screen and (max-width: 480px) {
+   .logo h1 {
+       font-size: 28px;
+   }
+   .head .icon {
+       margin-left: 8px;
+   }
+   header ul {
+       padding: 25px 15px;
+   }
+   header ul li a {
+       font-size: 14px;
+   }
+   .toggle {
+       font-size: 28px;
+       right: 20px;
+       top: -15px;
+   }
+}
+
+/* 600px ekranlar uchun */
+@media screen and (max-width: 600px) {
+   .logo h1 {
+       font-size: 30px;
+   }
+   header ul {
+       padding: 28px 18px;
+   }
+   header ul li a {
+       font-size: 16px;
+   }
+}
+
+/* 768px ekranlar uchun */
+@media screen and (max-width: 768px) {
+   .start {
+       clip-path: none;
+       padding: 25px 60px;
+   }
+   header {
+       margin: 0;
+       background-color: #1eb2a6;
+       position: relative;
+   }
+   header ul.flexSB {
+       display: none;
+   }
+   .toggle {
+       display: block;
+       background: none;
+       color: #fff;
+       font-size: 30px;
+       position: absolute;
+       right: 30px;
+       top: -20px;
+       border: none;
+   }
+}
+
+/* 900px ekranlar uchun */
+@media screen and (max-width: 900px) {
+   .logo h1 {
+       font-size: 32px;
+   }
+   header ul li a {
+       font-size: 18px;
+   }
+}
+
+/* 1024px ekranlar uchun */
+@media screen and (max-width: 1024px) {
+   .logo h1 {
+       font-size: 34px;
+   }
+   header ul li a {
+       font-size: 20px;
+   }
+}
+
+/* 1280px va undan katta ekranlar uchun */
+@media screen and (min-width: 1281px) {
+   .logo h1 {
+       font-size: 35px;
+   }
+   header ul li a {
+       font-size: 22px;
+   }
+}

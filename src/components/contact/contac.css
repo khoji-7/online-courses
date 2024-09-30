@@ -57,3 +57,121 @@
     }
     
 }
+
+/* 320px va kichikroq ekranlar uchun */
+@media screen and (max-width: 320px) {
+    .contact h1 {
+        font-size: 20px;
+    }
+    .contact p {
+        margin: 20px 0;
+    }
+    .contact textarea,
+    .contact input {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .contact .flexSb input:nth-child(1) {
+        margin-right: 5px;
+    }
+    .contact h3 {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    .contact span {
+        font-size: 14px;
+    }
+}
+
+/* 480px va kichikroq ekranlar uchun */
+@media screen and (max-width: 480px) {
+    .contact h1 {
+        font-size: 22px;
+    }
+    .contact p {
+        margin: 25px 0;
+    }
+    .contact textarea,
+    .contact input {
+        padding: 12px;
+        margin-bottom: 12px;
+    }
+    .contact h3 {
+        font-size: 18px;
+    }
+    .contact span {
+        font-size: 15px;
+    }
+}
+
+/* 600px ekranlar uchun */
+@media screen and (max-width: 600px) {
+    .contact h1 {
+        font-size: 25px;
+    }
+    .contact p {
+        margin: 28px 0;
+    }
+    .contact h3 {
+        font-size: 20px;
+    }
+}
+
+/* 768px ekranlar uchun */
+@media screen and (max-width: 768px) {
+    .contact .container {
+        flex-direction: column;
+    }
+    .contact iframe {
+        height: 50vh;
+    }
+    .contact .row {
+        width: 100%;
+    }
+    .contact h1 {
+        font-size: 27px;
+    }
+    .contact p {
+        margin: 30px 0;
+    }
+    .contact textarea,
+    .contact input {
+        padding: 15px;
+    }
+}
+
+/* 900px ekranlar uchun */
+@media screen and (max-width: 900px) {
+    .contact h1 {
+        font-size: 28px;
+    }
+    .contact p {
+        margin: 30px 0;
+    }
+}
+
+/* 1024px ekranlar uchun */
+@media screen and (max-width: 1024px) {
+    .contact h1 {
+        font-size: 29px;
+    }
+    .contact p {
+        margin: 30px 0;
+    }
+}
+
+/* 1280px va undan katta ekranlar uchun */
+@media screen and (min-width: 1281px) {
+    .contact h1 {
+        font-size: 30px;
+    }
+    .contact p {
+        margin: 30px 0;
+    }
+    .contact h3 {
+        font-size: 22px;
+    }
+    .contact span {
+        font-size: 16px;
+    }
+}

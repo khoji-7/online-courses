@@ -99,3 +99,96 @@ footer .last ul li{
          
     }
 }
+
+/* 320px va kichikroq ekranlar uchun */
+@media screen and (max-width: 320px) {
+    .newletter h1 {
+        font-size: 20px;
+    }
+    .newletter input {
+        padding: 15px;
+        height: auto;
+    }
+    footer .container {
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+    footer .logo p {
+        margin: 20px 0 10px 0;
+    }
+    footer .items img {
+        width: 40px;
+        height: 40px;
+    }
+    footer .items span, 
+    footer .items i {
+        font-size: 10px;
+    }
+}
+
+/* 480px va kichikroq ekranlar uchun */
+@media screen and (max-width: 480px) {
+    .newletter h1 {
+        font-size: 24px;
+    }
+    .newletter input {
+        padding: 18px;
+    }
+    footer .container {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+}
+
+/* 600px ekranlar uchun */
+@media screen and (max-width: 600px) {
+    .newletter h1 {
+        font-size: 26px;
+    }
+    footer .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer .logo p {
+        margin: 25px 0 12px 0;
+    }
+    footer .items img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* 768px ekranlar uchun */
+@media screen and (max-width: 768px) {
+    .newletter .left,
+    .newletter .right {
+        padding-right: 20px;
+    }
+    footer .container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+}
+
+/* 900px ekranlar uchun */
+@media screen and (max-width: 900px) {
+    .newletter h1 {
+        font-size: 28px;
+    }
+}
+
+/* 1024px ekranlar uchun */
+@media screen and (max-width: 1024px) {
+    .newletter h1 {
+        font-size: 29px;
+    }
+}
+
+/* 1280px va undan katta ekranlar uchun */
+@media screen and (min-width: 1281px) {
+    .newletter h1 {
+        font-size: 30px;
+    }
+    footer .container {
+        grid-template-columns: 3fr 4fr 3fr;
+    }
+}
